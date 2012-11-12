@@ -1,0 +1,11 @@
+/* Tiny Scrollbar */
+#win_infoex {  
+	padding-left: 3px;
+}
+#win_infoex .viewport { width: 560px; height: 390px; overflow: hidden; position: relative; margin-top: 5px;}
+#win_infoex .overview { list-style: none; position: absolute; left: 0; top: 0; padding: 0; margin: 0; }
+#win_infoex .scrollbar{ background: transparent url(../../images/scroll/bg-scrollbar-track-y.png) no-repeat 0 0; position: relative; background-position: 0 0; float: right; width: 15px; margin: 5px 6px 0 0; }
+#win_infoex .track { background: transparent url(../../images/scroll/bg-scrollbar-trackend-y.png) no-repeat 0 100%; height: 100%; width:13px; position: relative; padding: 0 1px; }
+#win_infoex .thumb { background: transparent url(../../images/scroll/bg-scrollbar-thumb-y.png) no-repeat 50% 100%; height: 20px; width: 25px; cursor: pointer; overflow: hidden; position: absolute; top: 0; left: -5px; }
+#win_infoex .thumb .end { background: transparent url(../../images/scroll/bg-scrollbar-thumb-y.png) no-repeat 50% 0; overflow: hidden; height: 5px; width: 25px; }
+#win_infoex .disable { display: none; }

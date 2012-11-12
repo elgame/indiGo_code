@@ -1,0 +1,42 @@
+/* $id$ */
+
+/**
+ * @file
+ * Written by Henri MEDOT <henri.medot[AT]absyx[DOT]fr>
+ * http://www.absyx.fr
+ */
+
+div.scrollbarpaper-container
+{
+  position: absolute;
+  z-index: 1;
+}
+
+div.scrollbarpaper-track
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+div.scrollbarpaper-drag
+{
+﻿  position: absolute;
+  width: 100%;
+  height: 100px;
+}
+
+div.scrollbarpaper-drag-top
+{
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+div.scrollbarpaper-drag-bottom
+{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
