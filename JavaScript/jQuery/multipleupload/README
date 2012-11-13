@@ -1,0 +1,5 @@
+LIBRERIA JQUERY PARA REALIZAR UPLOADS DE ARCHIVOS/IMAGENES ASINCRONAMENTE/AJAX.
+
+- ABRIR EL ARCHIVO multipleupload.js VERIFICAR CUALES LIBS REQUIERE.
+- EJEMPLO HTML -> multipleupload.php
+- MAS INFO -> http://malsup.com/jquery/form/#file-upload

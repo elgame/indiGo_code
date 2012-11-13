@@ -1,0 +1,10 @@
+LIBRERIA JQUERY QUE HABILITA PLACEHOLDER PARA INPUTS EN CASO QUE NO TENGA SOPORTE EL
+NAVEGADOR.
+
+- AL CARGAR LA LIB SE INICIALIZA PARA LAS LOS INPUTS TEXT QUE TENGA EL ATTR PLACEHOLDER:
+
+  JS
+    $(function(){$(':input[placeholder]').placeholder();});
+
+  HTML
+    <input type="text" placeholder="username">

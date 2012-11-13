@@ -1,0 +1,10 @@
+LIBRERIA JQUERY PARA VALIDAR TEXTBOX CON VALORES DECIMALES, ENTEROS,  NEGATIVOS ETC.
+
+- AL CARGAR LA LIB SE INICIALIZA PARA LAS SIGUIENTES CLASES:
+
+  $(".vnumeric").numeric(); //numero
+  $(".vinteger").numeric({ decimal: false }); //Valor entero
+  $(".vpositive").numeric({ negative: false }); //Numero positivo
+  $(".vpos-int").numeric({ decimal: false, negative: false }); //Numero entero positivo
+
+- MAS INFO | EJEMPLOS -> http://www.texotela.co.uk/code/jquery/numeric/
