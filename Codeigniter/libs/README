@@ -1,0 +1,16 @@
+LIBRERIAS QUE SE PUEDEN INCLUIR AL CODEIGNITER
+
+- mypdf.php
+	* fpdf/ v1.7
+	Crear archivos pdf, utilizado para crear reportes, notas de venta, facturas, etc.
+	Demo: demos/mypdf.php
+
+- myexcel.php
+	* excel2/ 
+	Crear archivos excel, utilizado para exportar reportes o informacion a archivos de microsoft excel.
+	Demo: demos/myexcel.php
+
+- paypal
+	* paypal/ v1.4
+	libreria que ayuda a utilizar la API de paypal y poder pagar en linea.
+	Demo: demos/paypal.php
